@@ -1,0 +1,685 @@
+body{
+    margin: 0;
+    display: grid;
+    
+}
+
+@media (max-width: 200px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+header{
+    background-image: url(image\ 1.png);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#icone{ 
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+}
+div svg{
+ margin-left: 50px;
+    grid-column-start: 2;
+    margin-top: 25px;
+    
+}
+h1{
+    font-family: Domine;
+    font-size: 60px;
+    color: white;
+    margin-left: 1050px;
+}
+#fonteti{
+    font-family: Domine;
+    font-size: 40px;
+    color: white;
+    margin-left: 1050px;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+    width: 250px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+
+  position: absolute;
+  top: 0;
+  right: 0px;
+  left: 100px;
+  font-size: 36px;
+  margin-left: 50px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#X{
+    font-family: Domine;
+    font-weight: bold;
+    font-size: 45px;
+    left: 50px;
+}
+#roxo{
+
+    background-color: rgb(10, 8, 21);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+}
+
+#teste{
+    position: fixed;
+}
+#sobreM{
+    margin-top: 20px;
+    font-family: Domine;
+    font-size: 55px;
+    color: white;
+
+    text-align: center;
+}
+
+#imageli{
+  filter: brightness(2.1);	
+   text-align: center;
+margin-bottom: 20px;
+}
+#wrapper{
+    text-align: center;
+    font-family: Domine;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  
+     p{
+      margin:0 auto;
+       width:65%;
+
+       font-size:35px;
+       &.f1{
+
+       white-space:nowrap;
+       overflow:hidden;
+         animation:anm1 3s steps(60,end);
+       }
+       &.s2{
+         opacity:0;
+       }
+       &.f1.s2{
+         opacity:1;
+       }
+       .line{
+         animation: 2s linear 0s normal none infinite running anm2;
+       }
+    }
+  }
+
+
+@keyframes anm1{
+  0%{width:0px;}
+}
+@keyframes anm2{
+  50%{opacity:0}
+  100%{opacity:1}
+}
+#maisroxo{
+   
+    background-color: rgb(25, 20, 53);
+    background-size: cover;
+    height: 185vh;
+    width: 100%;
+}
+#maisroxocont{
+   
+    background-color: rgb(25, 20, 53);
+    background-size: cover;
+    height: 175vh;
+    width: 100%;
+}
+#quadros{
+    text-align: center;
+    color:white;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+.margemeo{
+    margin-right: 450px;
+}
+.margenio{
+    margin-left: 450px;
+}
+.textoint{
+    text-align: center;
+    font-weight: bold;
+    font-family: Domine;
+    font-size: 60px;
+    color: white;
+    margin-top: 50px;
+}
+.quadros2{
+    border-color: aquamarine;
+    margin-top: 250px;
+    color:white;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+.quadrosombra{
+  box-shadow: 10px 10px 5px  rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(48, 39, 102);
+    border-radius: 30px;
+    width: 28vh;
+    height: 40vh;
+}
+.imagemsombra{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.quadrosombra1{
+  box-shadow: 10px 10px 5px  rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 300px;
+    background-color: rgb(46, 37, 97);
+    border-radius: 30px;
+    width: 28vh;
+    height: 40vh;
+}
+.quadrosombra2{
+  box-shadow: 10px 10px 5px  rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 300px;
+
+    background-color: rgb(46, 37, 97);
+    border-radius: 30px;
+    width: 28vh;
+    height: 40vh;
+}
+.quadroletra{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Domine;
+    font-size: 45px;
+    color: white;
+    
+}
+@media screen and (max-height: 450px) {
+    .quadrosombra {padding-top: 15px;}
+    .quadrosombra {font-size: 18px;}
+    .quadrosombra1 {padding-top: 15px;}
+    .quadrosombra1 {font-size: 18px;}
+    .quadrosombra2 {padding-top: 15px;}
+    .quadrosombra2 {font-size: 18px;}
+}
+#famosalinha{
+    margin-top: 150px;
+    text-align: center;
+}
+#quadros2{
+    margin-top: 225px;
+    text-align: center;
+    color:white;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+}
+#quadrosolo{
+    margin-top: 100px;
+    text-align: center;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr;
+ justify-items: center;
+}
+.retangulosombra{
+  box-shadow: 10px 10px 5px  rgb(0, 0, 0);
+    margin-left: 19vh;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(46, 37, 97);
+    border-radius: 30px;
+    width: 60vh;
+    height: 30vh;
+}
+
+
+.imageop{
+    margin-top: 8px;
+}
+.retangulosombra2{
+    box-shadow: 10px 10px 5px  rgb(0, 0, 0);
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(46, 37, 97);
+    border-radius: 30px;
+    width: 60vh;
+    height: 30vh;
+}
+#corcontact{
+    background-color: rgb(59,48,119);
+    background-size: cover;
+    height: 175vh;
+    width: 100%;
+}
+#github{
+    margin-top: 75px;
+    font-family: Domine;
+    font-size: 40px;
+    color: #fff;
+}
+.darkmode #roxo{
+    background-color: #EC9EFF;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: 0.5s;
+}
+.darkmode header{
+    background-image: url(image-YkaiT8BJB-transformed\ \(1\).png);
+   color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    transition: 0.5s;
+}
+.darkmode h1{
+    font-family: Domine;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin-left: 1050px;
+    transition: 0.5s;
+}
+.darkmode .sidenav{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.darkmode #fonteti{
+    font-family: Domine;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: 1050px;
+}
+.darkmode #imageli{
+  filter: brightness(.100);	
+}
+.darkmode #wrapper{
+  text-align: center;
+  font-family: Domine;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+   p{
+    margin:0 auto;
+     width:65%;
+
+     font-size:35px;
+     &.f1{
+     white-space:nowrap;
+     overflow:hidden;
+       animation:anm1 3s steps(60,end);
+     }
+     &.s2{
+       opacity:0;
+     }
+     &.f1.s2{
+       opacity:1;
+     }
+     .line{
+       animation: 2s linear 0s normal none infinite running anm2;
+     }
+  }
+}
+
+
+@keyframes anm1{
+0%{width:0px;}
+}
+@keyframes anm2{
+50%{opacity:0}
+100%{opacity:1}
+}
+.darkmode #sobreM{
+  margin-top: 20px;
+  font-family: Domine;
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+
+  text-align: center;
+}
+.darkmode #maisroxo{
+  background-color: #C370DE;
+  background-size: cover;
+  height: 185vh;
+  width: 100%;
+}
+.darkmode .quadrosombra{
+  text-align: center;
+  background-color: #DA6FFF;
+  border-radius: 30px;
+  width: 28vh;
+  height: 40vh;
+  box-shadow: 10px 10px 5px #a955c5;
+}
+.darkmode .quadrosombra1{
+  text-align: center;
+  margin-left: 300px;
+  background-color: #DA6FFF;
+  border-radius: 30px;
+  width: 28vh;
+  height: 40vh;
+  box-shadow: 10px 10px 5px #a955c5;
+}
+.darkmode .quadrosombra2{
+  text-align: center;
+  margin-right: 300px;
+  box-shadow: 10px 10px 5px #a955c5;
+  background-color: #DA6FFF;
+  border-radius: 30px;
+  width: 28vh;
+  height: 40vh;
+}
+.darkmode .quadroletra{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Domine;
+  font-size: 45px;
+  color: rgb(0, 0, 0);
+}
+.darkmode #maisroxocont
+{
+  background-color: #DA6FFF;
+    background-size: cover;
+    height: 185vh;
+    width: 100%;
+}
+.darkmode .retangulosombra{
+  margin-left: 19vh;
+  text-align: center;
+  justify-content: center;
+  background-color:#DA6FFF;
+  border-radius: 30px;
+  width: 60vh;
+  height: 30vh;
+  box-shadow: 10px 10px 5px #a955c5;
+}
+.darkmode .retangulosombra2{
+  box-shadow: 10px 10px 5px #a955c5;
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+  background-color:#DA6FFF;
+  border-radius: 30px;
+  width: 60vh;
+  height: 30vh;
+}
+.darkmode .textoint{
+  text-align: center;
+  font-weight: bold;
+  font-family: Domine;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+}
+.darkmode #github{
+      margin-top: 75px;
+    font-family: Domine;
+    font-size: 40px;
+    color: #fff;
+
+}
+.darkmode #conta{
+  text-align: center;
+  font-weight: bold;
+  font-family: Domine;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  margin-top: 170px;
+}
+.darkmode #corcontact{
+  background-color: #A551C1;
+  background-size: cover;
+  height: 175vh;
+  width: 100%;
+}
+#divide{
+  display: grid;
+  grid-template-areas: "email formulario"
+                       "telefone formulario";
+}
+.dividecor{
+  font-weight: bold;
+  font-family: Domine;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+.dividecor input{
+  font-family: Domine;
+  font-size: 30px;
+  height: 3vh;
+  vertical-align: 0.5vh;
+  border-radius: 20px;
+  width: 45%;
+  color: rgb(0, 0, 0);
+}
+.darkmode .dividecor{
+  font-weight: bold;
+  font-family: Domine;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+ 
+}
+.darkmode .dividecor input{
+  font-family: Domine;
+  font-size: 30px;
+  height: 3vh;
+  vertical-align: 0.5vh;
+  border-radius: 20px;
+  width: 30%;
+  color: rgb(255, 255, 255);
+ background-color: black;
+}
+.darkmode .letraconta{
+  vertical-align: 3vh;
+  margin-left: 5vh;
+  text-align: center;
+  font-weight: bold;
+  font-family: Domine;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(38 31 77);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: pink;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color:#000000
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#empurrao{
+    margin-top: 2vh;
+margin-left: 8vh;
+}
+#conta{
+  text-align: center;
+    font-weight: bold;
+    font-family: Domine;
+    font-size: 60px;
+    color: white;
+    margin-top: 170px;
+
+}
+#linha2{
+  margin-left: 7vh ;
+  margin-top: 12vh;
+}
+.imageconta{
+  margin-left: 5vh;
+  margin-top: 16vh;
+}
+.letraconta{
+  vertical-align: 3vh;
+  margin-left: 5vh;
+  text-align: center;
+  font-weight: bold;
+  font-family: Domine;
+  font-size: 50px;
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
